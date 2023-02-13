@@ -1,0 +1,223 @@
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+    display: block;
+}
+
+body {
+    line-height: 1;
+}
+
+ol,
+ul {
+    list-style-position: inside;
+    list-style-type: style color;
+}
+
+blockquote,
+q {
+    quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+    content: '';
+    content: none;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    width: 750px;
+    margin: 0 auto;
+}
+
+.header {
+    width: 100%;
+    height: 50px;
+    background-color: #dddddd;
+    color: #180c06;
+}
+
+.nav {
+    height: 25px;
+    width: 100%;
+    background-color: #cc9999;
+}
+
+.list {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+    font-size: large;
+    list-style-type: none;
+}
+
+.content {
+    display: flex;
+}
+
+.column-1 {
+    flex: 1;
+    background-color: #99cc9a;
+}
+
+a {
+    padding-right: 4px;
+    text-decoration: underline;
+    color: blue;
+}
+
+.column-2 {
+    width: 230px;
+    background-color: #9999cc;
+}
+
+.footer {
+    background-color: #cccc9a;
+}
+
+.link>li {
+    padding-bottom: 4px;
+}
+
+h1 {
+    padding: 5px;
+    font-size: 30px;
+    margin-bottom: 10px;
+    font-weight: bold;
+    color: #180c06;
+}
+
+.content p {
+    padding: 5px;
+    font-size: large;
+    margin-bottom: 10px;
+
+}
+
+.column-1 div {
+    padding: 5px;
+    font-size: large;
+    margin-bottom: 10px;
+}
+
+.column-2 ul {
+    padding: 5px;
+    font-size: large;
+    margin-bottom: 10px;
+}
+
+.footer {
+    padding: 5px;
+    font-size: large;
+    margin-bottom: 10px;
+}

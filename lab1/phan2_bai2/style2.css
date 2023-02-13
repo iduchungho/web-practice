@@ -1,0 +1,22 @@
+
+.div-text{
+    font-family: inherit;
+}
+.about{
+    color: #aa3d41;
+    text-shadow: 8px 4px #0000ff;
+}
+.it{
+    font-size: 50px;
+    color: #0000ff;
+}
+table {
+    border-collapse: collapse;
+}
+
+td,
+th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+}
