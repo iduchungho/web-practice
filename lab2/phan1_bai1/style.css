@@ -1,0 +1,138 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    position: relative;
+}
+.navbar-ctn{
+    height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #f7f7f7;
+}
+.site-title{
+    padding-left: 50px;
+    text-align: center;
+    font-size: 25px;
+}
+.main-menu{
+    display: flex;
+    align-items: center;
+}
+.menu{
+    padding-left: 30px;
+}
+.search{
+    padding-right: 40px;
+}
+
+.footer{
+    position: absolute;
+    bottom: -100;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.footer-ctn{
+    padding: 20px;
+    font-size: 15px;
+}
+ul{
+    list-style: none;
+}
+.body{
+    display: flex;
+}
+.tool-box{
+    width: 160px;
+}
+.box-title{
+    display: flex;
+    height: 35px;
+    align-items: center;
+    justify-content: center;
+    background-color: #f8f8f8;
+    border: 1px solid black;
+}
+.box1{
+    padding: 10px;
+}
+.product-box{
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    row-gap: 2.5rem;
+    column-gap: 1rem;
+    padding: 20px;
+    /* width: calc(100vw - 320px); */
+}
+.card{
+    width: 17rem !important;
+}
+.nothing{
+    width: 160px;
+}
+.gr-btn{
+    display: flex;
+    justify-content: right;
+}
+@media only screen and (max-width: 1024px) {
+    .card{
+        width: 13rem !important;
+    }
+    .nothing{
+        display: none;
+    }
+}
+@media only screen and (max-width: 320px) {
+    .site-title{
+        padding-left: 10px;
+    }
+}
+@media only screen and (max-width:425px){
+    .tool-box {
+        display: none;
+    }
+
+    .menu{
+        font-size: 13px !important;
+    }
+}
+@media only screen and (max-width: 768px ){
+    .site-title{
+        font-size: 20px;
+    }
+    .menu{
+        font-size: 15px;
+        padding-right: 20px;
+        padding-left: 0;
+    }
+    .navbar-ctn{
+        display: initial;
+    }
+    .main-menu{
+        height: 70px;
+        justify-content: space-between;
+        background-color: #f7f7f7;
+    }
+    .search{
+        padding: 15px;
+        width: 100%;
+        background-color: #f7f7f7;
+    }
+    .product-box {
+        display: grid;
+        grid-template-columns: repeat(1, minmax(0, 1fr));
+        row-gap: 2.5rem;
+        column-gap: 1rem;
+        padding: 20px;
+    }
+    .nothing{
+        display: none;
+    }
+    .card{
+        width: 20rem !important;
+    }
+    .body{
+        justify-content: center;
+    }
+
+}
